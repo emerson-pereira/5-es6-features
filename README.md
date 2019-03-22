@@ -68,7 +68,10 @@ Essa é das features que mais me confundiu no início porém quanto mais eu uso 
 
 Com o reduce conseguimos fazer um loop em um Array e ir incrementando um valor inicial a cada iteração. Tudo isso numa syntax bem poderosa.
 
-Nesse exemplo, a gente começa com o valor em 0, e apartir daí somamos com a propriedade `value` do Objeto atual de cada iteração. É um dos métodos preferidos e as possibilidades são muitas.
+O método reduce tem dois parâmetros. O primeiro `acc` é o acumulador (acc = accumulator). E ele precisa ser iniciado com algum valor, no nosso caso: `0`.
+O segundo é cada items do loop que estamos fazendo, nesse exemplo, um Objeto `{ title: '...', value: ... }`.
+
+A gente, então, começa com o valor em 0, e apartir daí somamos com a propriedade `value` do Objeto atual de cada iteração. É um dos meus métodos preferidos e as possibilidades são muitas.
 
 [Leia mais sobre Reduce](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
 
@@ -78,9 +81,28 @@ Nesse exemplo, a gente começa com o valor em 0, e apartir daí somamos com a pr
 
 [Código](/features/async-await.js) | [Codepen](https://codepen.io/emersonmdca/pen/QoJooe)
 
+Deixei o meu preferido por úlitmo. Async Await com a API Fetch do browser.
+
+Aqui a gente faz uma busca na API pública do GitHub. Usamos o endpoint que retorna algumas informações sobre um usuário do GitHub, buscando pelo seu username.
+
+O método `fetch`, é um método assíncrono, então ele retorna uma Promise. Isso por si só já é incrível e eu podia parar por aqui, mas vamos além.
+
+Aqui a gente combina o Async / Await que, básicamente, nos permite um approach síncrono com Promises.
+O que isso faz é permitir que usemos declarações da direita pra esquerda e attribuir valores do retorno de uma Promise em uma váriavel da maneira que faríamos proceduralmente (síncronamente).
+
+Pra isso basta declarar o `async` antes da sua função e `await` antes da chamada que se espera um retorno de uma Primise e pronto.
+
+Essas duas features são,de longe, as que eu mais gosto no ECMAScript 6 e espero que vocês tenham gostado também.
+
 [Leia mais sobre Fetch](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API)
 
 [Leia mais sobre Async / Await](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/funcoes_assincronas)
+
+Essas foram minhas 5 features, eu espero que tenham gostado da leitura.
+
+Pull Request são bem vindo ao [repositótio](https://github.com/emersoonpereiira) desse artigo.
+
+Valeu e abraço!
 
 ## References
 
