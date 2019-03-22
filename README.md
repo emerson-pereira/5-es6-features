@@ -40,13 +40,31 @@ E se você é desses que gosta de escrever tudo em uma linha pra impressionar, v
 
 ### #3 Usando Template String e acessando objetos com Destructuring
 
-![Arrays com valores únicos](/img/template-string-with-destructuring.png?raw=true)
+![Usando Template String e acessando objetos com Destructuring](/img/template-string-with-destructuring.png?raw=true)
 
 [Código](/features/template-string-and-destructuring.js) | [Codepen](https://codepen.io/emersonmdca/pen/drQLVg)
 
 [Leia mais sobre Atribuicao via desestruturacao](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Atribuicao_via_desestruturacao)
 
 [Leia mais sobre Template Strings](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/template_strings)
+
+### #4 Somando total de valores de obejto com Reduce
+
+![Somando total de valores de obejto com Reduce](/img/reduce.png?raw=true)
+
+[Código](/features/reduce.js) | [Codepen](https://codepen.io/emersonmdca/pen/xBQezz)
+
+[Leia mais sobre Reduce](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
+
+### #5 Pegando dados de API com o método Fetch usando Async / Await
+
+![Pegando dados de API com o Fetch usando Async / Await](/img/async-await.png?raw=true)
+
+[Código](/features/async-await.js) | [Codepen](https://codepen.io/emersonmdca/pen/QoJooe)
+
+[Leia mais sobre Fetch](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API)
+
+[Leia mais sobre Async / Await](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/funcoes_assincronas)
 
 ## Licence
 
