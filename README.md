@@ -8,11 +8,15 @@ São pequenos "pedaços" de código que eu considero simples porém super incrí
 
 Você pode ver os códigos fonte nesse repositório, testar no copen e compartilhar as imagens (SVG e PNG) dos códigos se quiserem. É tudo free, não tem direito autoral e esse repo tá na licensa MIT.
 
+Dica: Quando vir os exemplos no codepen, lembre de abrir a aba de console pra ver os resultados ;).
+
 Sem mais delongas aqui vai o número #1
 
 ### #1 Arrays com valores únicos
 
-[Arrays com valores únicos](/img/unique-array.png)
+![Arrays com valores únicos](/img/unique-array.png?raw=true)
+
+[Código](/features/unique-array.js) | [Codepen](https://codepen.io/emersonmdca/pen/KErYZg)
 
 Fazer um array ter valores únicos é algo muito útil que antes requeria fazer loops usando `for`, `forEach` ou qualquer outra maneira que requer várias linhas de código agora está muito simples com ES6.
 
