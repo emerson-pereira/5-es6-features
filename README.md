@@ -1,6 +1,6 @@
 # 5 features do ES6
 
-*Leitura de 2 minutos.*
+*Leitura de 5 minutos.*
 
 Isso é uma lista de 5 das minhas features favoritas do ECMAScript 6 (ou ES6).
 
