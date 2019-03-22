@@ -6,7 +6,7 @@ Isso é uma lista de 5 das minhas features favoritas do ECMAScript 6 (ou ES6).
 
 São pequenos "pedaços" de código que eu considero simples porém super incríveis e úteis.
 
-Você pode ver os códigos fonte nesse repositório, testar no copen e compartilhar as imagens (SVG e PNG) dos códigos se quiserem. É tudo free, não tem direito autoral e esse repo tá na licensa MIT.
+Você pode ver os códigos fonte nesse repositório, testar no copen e compartilhar as imagens ([SVG](/svg) e [PNG](/png)) dos códigos se quiserem. É tudo free, não tem direito autoral e esse repo tá na licensa MIT.
 
 Dica: Quando vir os exemplos no codepen, lembre de abrir a aba de console pra ver os resultados.
 
