@@ -8,7 +8,7 @@ São pequenos "pedaços" de código que eu considero simples porém super incrí
 
 Você pode ver os códigos fonte nesse repositório, testar no copen e compartilhar as imagens (SVG e PNG) dos códigos se quiserem. É tudo free, não tem direito autoral e esse repo tá na licensa MIT.
 
-Dica: Quando vir os exemplos no codepen, lembre de abrir a aba de console pra ver os resultados ;).
+Dica: Quando vir os exemplos no codepen, lembre de abrir a aba de console pra ver os resultados.
 
 Sem mais delongas aqui vai o número #1.
 
@@ -36,6 +36,10 @@ E se você é desses que gosta de escrever tudo em uma linha pra impressionar, v
 
 [Código](/features/object-clone.js) | [Codepen](https://codepen.io/emersonmdca/pen/moQgmo)
 
+A dica #2 é sobre clonar obejtos. Para evitar o comportamento de referenciação do JavaScript é comum que se precise de clonar obejtos. A maneira mais usada anteriormente era o famoso `Object.assign()`. Para evitar esse medonho e verboso método uma maneira muito mais simples e legível de se clonar um objeto é usando o famoso "Três pontinhos", o Spread Operator.
+
+Em suma o que básicamente acontece com o spread é, ele vai por item por item do seu Array ou, nesse caso, Objeto e atribui os mesmos valores. O resultado é um Objeto novo e desvinculado do Objeto inicial, assim evitamos bugs com valores inesperados.
+
 [Leia mais sobre Spread Operator](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Spread_operator)
 
 ### #3 Usando Template String e acessando objetos com Destructuring
@@ -43,6 +47,12 @@ E se você é desses que gosta de escrever tudo em uma linha pra impressionar, v
 ![Usando Template String e acessando objetos com Destructuring](/img/template-string-with-destructuring.png?raw=true)
 
 [Código](/features/template-string-and-destructuring.js) | [Codepen](https://codepen.io/emersonmdca/pen/drQLVg)
+
+Aqui temos duas features:
+
+- Template String: é uma maneira de declarar uma String e interpolar valores de uma maneira muito mais legível. Basta usar o "backtick" ao invés de aspas e envoler o valor em `${}`.
+
+- Destructuring ou Desestruturação: Trate-se de forma diferente de acessar propriedades de Obejtos ou itens de Arrays. Você consegue declarar variáveis com o nome da propriedade interna do objeto diretamente. Isso deixa o código menos verboso e muito mais legível.
 
 [Leia mais sobre Atribuicao via desestruturacao](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Atribuicao_via_desestruturacao)
 
@@ -53,6 +63,12 @@ E se você é desses que gosta de escrever tudo em uma linha pra impressionar, v
 ![Somando total de valores de obejto com Reduce](/img/reduce.png?raw=true)
 
 [Código](/features/reduce.js) | [Codepen](https://codepen.io/emersonmdca/pen/xBQezz)
+
+Essa é das features que mais me confundiu no início porém quanto mais eu uso mais eu gosto: Reduce.
+
+Com o reduce conseguimos fazer um loop em um Array e ir incrementando um valor inicial a cada iteração. Tudo isso numa syntax bem poderosa.
+
+Nesse exemplo, a gente começa com o valor em 0, e apartir daí somamos com a propriedade `value` do Objeto atual de cada iteração. É um dos métodos preferidos e as possibilidades são muitas.
 
 [Leia mais sobre Reduce](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
 
@@ -65,6 +81,10 @@ E se você é desses que gosta de escrever tudo em uma linha pra impressionar, v
 [Leia mais sobre Fetch](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API)
 
 [Leia mais sobre Async / Await](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/funcoes_assincronas)
+
+## References
+
+Imagens criadas com [Carbon](https://carbon.now.sh)
 
 ## Licence
 
