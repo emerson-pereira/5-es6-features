@@ -32,11 +32,21 @@ E se você é desses que gosta de escrever tudo em uma linha pra impressionar, v
 
 ### #2 Clonando objetos com Spread Operator
 
-![Arrays com valores únicos](/img/object-clone.png?raw=true)
+![Clonando objetos com Spread Operator](/img/object-clone.png?raw=true)
 
 [Código](/features/object-clone.js) | [Codepen](https://codepen.io/emersonmdca/pen/moQgmo)
 
 [Leia mais sobre Spread Operator](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Spread_operator)
+
+### #3 Usando Template String e acessando objetos com Destructuring
+
+![Arrays com valores únicos](/img/template-string-with-destructuring.png?raw=true)
+
+[Código](/features/template-string-and-destructuring.js) | [Codepen](https://codepen.io/emersonmdca/pen/drQLVg)
+
+[Leia mais sobre Atribuicao via desestruturacao](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Atribuicao_via_desestruturacao)
+
+[Leia mais sobre Template Strings](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/template_strings)
 
 ## Licence
 
