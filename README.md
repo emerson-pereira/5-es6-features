@@ -10,7 +10,7 @@ Você pode ver os códigos fonte nesse repositório, testar no copen e compartil
 
 Dica: Quando vir os exemplos no codepen, lembre de abrir a aba de console pra ver os resultados ;).
 
-Sem mais delongas aqui vai o número #1
+Sem mais delongas aqui vai o número #1.
 
 ### #1 Arrays com valores únicos
 
@@ -26,10 +26,17 @@ Feito isso você tem um belo array sem nenhum valor repetido usando as magias do
 
 E se você é desses que gosta de escrever tudo em uma linha pra impressionar, você pode combinar os dois:
 
-`Array.from(new Set([1, 2, 2, 1, 1]))`
+`Array.from(new Set([1, 2, 2, 1, 1]))` :eyes:
 
 [Leia mais sobre Set](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Set)
- 
+
+### #2 Clonando objetos com Spread Operator
+
+![Arrays com valores únicos](/img/object-clone.png?raw=true)
+
+[Código](/features/object-clone.js) | [Codepen](https://codepen.io/emersonmdca/pen/moQgmo)
+
+[Leia mais sobre Spread Operator](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Spread_operator)
 
 ## Licence
 
