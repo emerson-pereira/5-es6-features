@@ -98,11 +98,15 @@ Essas duas features são,de longe, as que eu mais gosto no ECMAScript 6 e espero
 
 [Leia mais sobre Async / Await](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/funcoes_assincronas)
 
+### É isso!
+
 Essas foram minhas 5 features, eu espero que tenham gostado da leitura.
 
-Pull Request são bem vindo ao [repositótio](https://github.com/emersoonpereiira) desse artigo.
+Mandem Pull Requests no [repositótio](https://github.com/emersoonpereiira) desse artigo se tiverem uma sugestão.
 
-Valeu e abraço!
+Eu agraço muito o seu tempo e tenha um ótimo dia / tarde / noite!
+
+Thanks and bye!
 
 ## References
 
