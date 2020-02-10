@@ -1,5 +1,8 @@
 # 5 features do ES6
 
+> Aritgo publicado em:
+> [https://www.ibm.com/developerworks/br/library/5-features-do-ES6/index.html](https://www.ibm.com/developerworks/br/library/5-features-do-ES6/index.html)
+
 *Leitura de 5 minutos.*
 
 Isso é uma lista de 5 das minhas features favoritas do ECMAScript 6 (ou ES6).
