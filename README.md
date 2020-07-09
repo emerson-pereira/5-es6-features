@@ -1,7 +1,7 @@
 # 5 features do ES6
 
 > Aritgo publicado em:
-> [https://www.ibm.com/developerworks/br/library/5-features-do-ES6/index.html](https://www.ibm.com/developerworks/br/library/5-features-do-ES6/index.html)
+> [https://developer.ibm.com/br/technologies/api/articles/5-features-do-es6/](https://developer.ibm.com/br/technologies/api/articles/5-features-do-es6/)
 
 *Leitura de 5 minutos.*
 
